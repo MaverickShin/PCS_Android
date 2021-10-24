@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+        showAsAction = "옵션"
+        - always : 메뉴를 항상 [...] 밖에 표시
+        - never : 메뉴를 [...] 형태로 숨김
+        - ifRoom : 공간에 여유가 있으면 [...]밖에 표시
+        - withText :  아이콘이 있을 때 글자와 함께 표시
+        - collapseActionView : SearchView 등과 연계하여 사용
+        -->
+    <item
+        android:id="@+id/action_menu1"
+        android:title="자가진단"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu2"
+        android:title="약품식별"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu3"
+        android:title="캘린더"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu4"
+        android:title="분실동물찾기"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu5"
+        android:title="정기구독"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu6"
+        android:title="마이펫"
+        app:showAsAction="never" />
+
+</menu>

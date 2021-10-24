@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">PetSystem</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="register">회원가입</string>
+    <string name="register_info">환영합니다! 아래 정보들을 기입해주세요.</string>
+    <string name="name">이름</string>
+    <string name="email">이메일</string>
+    <string name="pw_chk">번호 확인</string>
+    <string name="gender">성별</string>
+    <string name="gender_male">남</string>
+    <string name="gender_female">여</string>
+    <string name="years">연령</string>
+    <string name="okay">확인</string>
+    <string name="cancel">취소</string>
+    <string name="my_info">회원정보</string>
+    <string name="sir">님</string>
+    <string name="pet_sitter">펫 시터</string>
+    <string name="trainer">훈련사</string>
+    <string name="mypetInfo">My Pet</string>
+
+    <!--
+        21.10.01 창훈_코드
+        이슈(1): 기존 파일과 이름이 겹치기 때문에 app_name -> app_name2로 수정
+    -->
+    <!-- 이슈(1) -->
+    <string name="app_name2">반려동물 문진</string>
+
+    <string name="ear_text">
+        "개의 귀 진드기를 제거하는 방법 \n\n"
+
+        "일반적으로 귀 진드기라고 불리는 Otodectes cynotis 진드기는 비교적 경미한 기생충 감염입니다. \n"
+        "그러나 동물이 외이에 심한 자극을 주는 면역 과민 반응이 있는 경우 합병증이 발생할 수 있습니다. \n"
+        "귀 진드기가 있는 개는 일반적으로 귀를 긁습니다 \n\n"
+
+        "https://www.petmd.com/dog/conditions/infectious-parasitic/c_dg_ear_mites \n\n\n"
+
+        "개 귀 감염 - 증상 및 치료 \n\n"
+
+        "개의 중이염 및 내이염 중이염은 개의 중이의 염증을 말하며 \n"
+        "내이염은 내이의 염증을 말하며 둘 다 일반적으로 세균 감염에 의해 유발됩니다. \n\n"
+
+        "https://www.petmd.com/dog/conditions/ears/c_multi_otitis_media_interna \n\n\n"
+
+    </string>
+
+    <string name="eye_text">
+        "개의 디스템퍼 \n\n"
+
+        "애완 동물의 일상적인 수의사 방문에서 문서 작업에서 "DHPP"또는 "DAPP"를보고 그것이 무엇인지 궁금해했을 것입니다.\n"
+        "이 백신의 "D"는 기침과 재채기를 통해 한 개에서 다른 개에게 전염되는 질병인 디스템퍼(distemper)를 나타냅니다. \n"
+        "DHPP는 다음을 포함하는 개를 위한 핵심 백신 중 하나입니다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/respiratory/c_dg_canine_distemper \n\n\n"
+
+        "개의 렙토스피라증: 그것이 무엇이며 알아야 할 사항 \n\n"
+
+        "2020년 7월 27일 Laura Allison이 검토하고 업데이트한 DVM 렙토스피라증은 혈류를 통해 퍼지는 박테리아 감염입니다.\n"
+        "개는 감염된 야생 동물의 소변을 운반하는 웅덩이 또는 수역에서 렙토스피라증에 걸릴 수 있습니다. \n\n"
+
+        "https://www.petmd.com/dog/conditions/infectious-parasitic/c_multi_leptospirosis \n\n\n"
+
+        "개의 세균 감염(티저병) \n\n"
+
+        "개의 티저병 티저병은 클로스트리디움 필포르미스(Clostridium pilformis)라는 박테리아에 의한 세균 감염입니다. \n"
+        "박테리아는 장에서 증식하고 일단 간에 도달하면 심각한 손상을 일으키는 것으로 생각됩니다. 어린 개는 질병에 걸릴 위험이 높습니다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/infectious-parasitic/c_dg_tyzzer_disease \n\n\n"
+
+    </string>
+
+    <string name="teeth_text">
+        "개의 치주(잇몸) 질환 \n\n"
+
+        "흔히 잇몸질환이라고 하는 치주질환은 강아지에게 가장 흔한 질환입니다.\n"
+        "최근 연구에 따르면 강아지의 거의 90%가 2세가 되면 어떤 형태로든 치주 질환을 앓게 됩니다. \n\n"
+
+        "https://www.petmd.com/dog/conditions/mouth/c_multi_periodontal_disease \n\n\n"
+
+        "개 회충의 원인과 제거 방법 \n\n"
+
+        "회충은 구충 및 편충과 함께 개에서 발견되는 가장 흔한 유형의 벌레 중 하나입니다.\n"
+        "회충은 강아지의 건강에 중대한 영향을 미칠 수 있으며 드물게 치명적일 수 있습니다. \n"
+        "그러나 다행스럽게도 개의 회충은 쉽게 진단하고 효과적으로 치료할 수 있습니다. \n\n"
+
+        "https://www.petmd.com/dog/conditions/infectious-parasitic/c_multi_ascariasis \n\n\n"
+    </string>
+    <string name="leg_text">
+        "강아지가 절뚝거리는 이유는? \n\n"
+
+        "어느 시점에서 개가 절뚝거리는 모습을 볼 수 있습니다.\n"
+        "절뚝거림의 원인을 애초에 파악하기가 쉽지 않기 때문에 두렵고 걱정스러울 수 있습니다.\n"
+        "개의 절뚝거림은 결코 정상이 아니지만, 이와 관련된 건강 문제 중 일부는 다른 것보다 더 심각합니다. \n\n"
+
+        "https://www.petmd.com/dog/emergency/accidents-injuries/e_dg_limping \n\n\n"
+
+        "개의 고관절 이형성증: 올인원 가이드 \n\n"
+
+        "대형견을 키우는 부모는 "엉덩이 이형성증"이라는 단어를 두려워하지만 모든 크기의 개에게 발생할 수 있습니다.\n"
+        "그렇다면 고관절 이형성증은 정확히 무엇이며 애완 동물 부모에게 왜 그렇게 우려되는 것입니까? \n"
+        "징후와 증상에서 치료 및 관리에 이르기까지 개의 고관절 이형성증에 대해 알아야 할 모든 것이 있습니다. \n\n"
+
+        "https://www.petmd.com/dog/conditions/musculoskeletal/c_dg_hip_dysplasia"
+    </string>
+
+    <string name="head_text">
+        "개의 잠금턱 \n\n"
+
+        "개의 파상풍 간균 감염 파상풍은 개에게 가끔 발생하는 질병으로, \n"
+        "Clostridium tetani라는 박테리아에 감염되어 발생합니다. \n"
+        "이 박테리아는 일반적으로 토양 및 기타 저산소 환경에 존재하지만 포유류의 장과 상처의 죽은 조직에도 존재합니다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/neurological/c_dg_tetanus \n\n\n"
+
+        "개의 혼미 및 혼수 상태 \n\n"
+
+        "개의 한계 의식과 완전한 무의식 동물이 의식이 없지만 \n"
+        "매우 강한 외부 자극에 의해 깨어날 수 있는 경우, 혼미라는 용어는 상태를 설명하는 데 사용됩니다.\n"
+        "혼수상태에 빠진 환자는 같은 수준의 외부 자극이 있어도 의식을 잃는다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/neurological/c_dg_stupor_coma \n\n\n"
+    </string>
+
+    <string name="stomach_text">
+        "개의 십이지장충: 알아야 할 사항 \n\n"
+
+        "구충이라고도 하는 안실로스토마 종은 개의 소장에서 살 수 있는 피를 빨아들이는 장내 기생충입니다. \n"
+        "이 기생충은 소장에서 심각한 빈혈과 염증을 유발할 수 있으며, \n"
+        "이는 특히 다음과 같은 경우에 심각하고 생명을 위협하는 질병으로 이어질 수 있습니다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/infectious-parasitic/c_multi_ancylostomiasis \n\n\n"
+
+        "왜 우리 강아지의 뱃속에서 소리가 날까요? \n\n"
+
+        "강아지의 위도 우리처럼 소리를 냅니다.\n"
+        "으르렁거리거나, 덜덜 떨리거나, 으르렁거리거나, 시끄러운 개 배는 여러 가지를 의미할 수 있습니다.\n"
+        "종종 그것은 단순히 개가 배고프고 위가 비어 있음을 의미합니다. \n"
+        "때때로, 덜컹거리는 소리는 그들이 방금 큰 식사를 했고 위가 제 기능을 하고 있음을 의미합니다. \n\n"
+
+        "https://www.petmd.com/dog/general-health/dog-stomach-noises-what-do-they-mean \n\n\n"
+    </string>
+
+    <string name="behavior_text">
+        "개의 극도의 공포와 불안 \n\n"
+
+        "두려움은 정상적인 적응 반응이지만 \n"
+        "때때로 개의 두려움 반응은 개입이 필요한 더 극단적인 수준에 이를 수 있습니다.\n"
+        "깊은 두려움과 불안은 개의 건강에 해롭고 잠재적으로 위험한 행동으로 이어질 수 있습니다. \n"
+        "도움을 주는 방법을 더 잘 이해할 수 있도록 다음을 수행해야 합니다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/behavioral/c_dg_fears_phobia_anxiety \n\n\n"
+
+        "개의 뇌우 공포증 \n\n"
+
+        "2019년 7월 17일 Jennifer Coates 박사가 \n"
+        "정확성에 대해 검토한 DVM Dog 뇌우 불안은 폭풍우 또는 \n"
+        폭풍우와 관련된 자극에 대한 지속적이고 과장된 두려움을 특징으로 하는 장애입니다.\n"
+        "이 공포증은 복잡하고 때로는 관리하기 어렵습니다.\n\n"
+
+        "https://www.petmd.com/dog/conditions/behavioral/c_dg_thunderstorm_phobias \n\n\n"
+    </string>
+
+    <string name="action_settings">Settings</string>
+</resources>

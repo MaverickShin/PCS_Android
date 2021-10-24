@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.petsystemtest4">
+
+    <!-- 21.10.01 창훈_코드 업데이트-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetSystemTest4">
+
+        <activity
+            android:name="com.example.petsystemtest4.MyPetActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.petsystemtest4.MoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.petsystemtest4.Pet_searchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.petsystemtest4.CalenderAcitity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.petsystemtest4.MedicineActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.petsystemtest4.SelfActivity"
+            android:exported="true" />
+        <activity android:name="com.example.petsystemtest4.MainActivity"
+            android:exported="true"/>
+
+        <activity android:name="com.example.petsystemtest4.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--21.10.01 창훈_코드 업데이트-->
+        <activity android:name="com.example.petsystemtest4.RegisterActivity" />
+        <activity android:name="com.example.petsystemtest4.Fragment.ShopFragment"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.example.petsystemtest4.Fragment.CartFragment"
+            tools:ignore="Instantiatable"/>
+        <activity android:name="com.example.petsystemtest4.Fragment.MyFragment"
+            tools:ignore="Instantiatable"/>
+        <activity android:name="com.example.petsystemtest4.Fragment.HomeFragment"
+            tools:ignore="Instantiatable"/>
+
+        <!-- 21.10.01 원철 코드 업데이트 -->
+        <!-- 21.09.29 추가 -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBLcDl2UJJNrOLBTxVCBzo7_DMJ-2WikeA"/>
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false"/>
+
+    </application>
+
+</manifest>

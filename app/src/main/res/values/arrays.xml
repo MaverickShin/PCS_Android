@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yearsArray">
+        <item>선택</item>
+        <item>10대</item>
+        <item>20대</item>
+        <item>30대</item>
+        <item>40대</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>펫 등록</item>
+        <item>펫 목록/수정</item>
+    </string-array>
+
+    <!-- 21.10.01 창훈 코드 -->
+    <string-array name="typeList">
+        <item>반려동물 유형을 선택해주세요</item>
+        <item>강아지</item>
+        <item>고양이</item>
+
+    </string-array>
+    <string-array name="symptionList">
+
+        <item>증상부위를 선택해주세요</item>
+        <item>귀</item>
+        <item>눈</item>
+        <item>구강</item>
+        <item>다리</item>
+        <item>머리(목, 코)</item>
+        <item>복부</item>
+        <item>행동</item>
+
+    </string-array>
+
+</resources>
